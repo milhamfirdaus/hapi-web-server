@@ -1,0 +1,27 @@
+{
+  "name": "hapi-web-server",
+  "version": "1.0.0",
+  "description": "Hapi web server with dicoding",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milhamfirdaus/hapi-web-server.git"
+  },
+  "keywords": [
+    "Hapi",
+    "REST"
+  ],
+  "author": "laviencode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milhamfirdaus/hapi-web-server/issues"
+  },
+  "homepage": "https://github.com/milhamfirdaus/hapi-web-server#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.2"
+  }
+}
