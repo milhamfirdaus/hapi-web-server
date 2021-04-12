@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,8 @@
   "homepage": "https://github.com/milhamfirdaus/hapi-web-server#readme",
   "dependencies": {
     "@hapi/hapi": "^20.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
